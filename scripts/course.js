@@ -87,19 +87,29 @@ function displayCourses(coursesArray=courses) {
         coursesCon.innerHTML += courseCards;
     })
   }
+
+function displayCredits(courses){
+    const totalcredits = document.querySelector('.totalcredits');
+    const credits = courses.reduce((sum, course) => sum + course.credits, 0);
+    totalcredits.innerHTML = `The total credits for the displayed courses is ${credits}.`;
+}
   document.getElementById('all').addEventListener('click', () => {
-    displayCourses(courses)
+    displayCourses(courses);
+    displayCredits(courses)   
   })
   
   document.getElementById('wdd').addEventListener('click', () => {
     const wddCourses = courses.filter(course => course.subject === 'WDD');
     displayCourses(wddCourses);
+    displayCredits(wddCourses);
   })
 
   document.getElementById('cse').addEventListener('click', () => {
     const cseCourses = courses.filter(course => course.subject === 'CSE');
     displayCourses(cseCourses);
+    displayCredits(cseCourses);
   })
   
   
   displayCourses(courses)
+  displayCredits(courses)
