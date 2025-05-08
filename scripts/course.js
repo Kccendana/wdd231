@@ -111,5 +111,5 @@ function displayCredits(courses){
   })
   
   
-  displayCourses(courses)
-  displayCredits(courses)
+  displayCourses(courses);
+  displayCredits(courses);
