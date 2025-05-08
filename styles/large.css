@@ -1,0 +1,52 @@
+@media only screen and (min-width:769px){
+    .nav-button {
+        display: none;
+    }
+    .navi {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 18%;
+        font-size: .9rem;
+    }
+    .header_imgCon {
+        gap: 2em;
+    }
+    .header_imgCon img {
+        width: 150px;
+    }
+    .name{
+        font-size: 2em;
+    }
+    h1{
+        grid-column: span 2;
+    }
+    main {
+        grid-template-columns: .7fr .3fr;
+        padding: 1em 18%;
+    }
+    .certificate{
+        grid-column: span 2;
+    }
+    figure{
+        padding: 1em 2em;
+    }
+    figcaption{
+        text-align: center;
+    }
+    .button li {
+        padding: 0.5em 1em;
+    }
+    .course-lists.button{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .course-lists.button li {
+        width: 15em;
+    }
+    
+    
+}
