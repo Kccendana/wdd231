@@ -1,0 +1,71 @@
+@media only screen and (min-width:769px){
+    header{
+    background-color: var(--fontcolor);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    }
+    nav{
+        background: none;
+    } 
+    .nav-button {
+        display: none;
+    }
+    .navi {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        font-size: .9rem;
+        gap: 2em;
+    }
+    nav .navi li a{
+        color: var(--color1);
+        font-size: large;
+    }
+    .name{
+        font-size: 2em;
+    }
+    h1{
+        grid-column: span 2;
+    }
+    main {
+        padding: 1em 18%;
+    }
+    .certificate{
+        grid-column: span 2;
+    }
+    figure{
+        padding: 1em 2em;
+    }
+    figcaption{
+        text-align: center;
+    }
+    .button li {
+        padding: 0.5em 1em;
+    }
+    .course-lists.button{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .course-lists.button li {
+        width: 15em;
+    }
+    footer{
+        flex-direction: row;
+        align-items: center;
+        padding: 1em 15%;
+    }
+    .socmed{
+        width: 30%;
+    }
+    .chamber-info {
+        width: 40%; 
+    }
+    .list .b-cards{
+        grid-template-columns: 1fr 1fr 0.6fr 1fr;
+    }
+}

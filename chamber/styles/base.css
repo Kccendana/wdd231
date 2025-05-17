@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+:root{
+    --color1: #fef4ea;
+    --fontcolor: #532822;
+    --color2: #ff854a;
+    --color3: #43a574;
+    --color4: #ffD05C;
+}
+img{
+    width: 100%;
+}
+
+body {
+    min-width: 420px;
+}
+
+/*hamburger menu*/
+.nav-button {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    justify-content: space-around;
+    position: absolute;
+    top: 2em;
+    right: 1em;
+    cursor: pointer;
+}
+
+.ham {
+    width: 100%;
+    height: 4px;
+    background-color: var(--color1);
+    border-radius: 2px;
+}
+ .navi {
+    display: none;
+} 
+.navi.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6em;
+    right: 0;
+    left: 0;
+    background-color: var(--fontcolor);
+    width: 100%;
+    text-align: center;
+} 
+
+.nav-button.close .ham:nth-child(2) {
+    opacity: 0;
+  }
+  
+.nav-button.close .ham:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+  
+.nav-button.close .ham:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+.active{
+    border-bottom: 3px solid var(--color1);
+}
+
+header {
+    background-color: var(--fontcolor);
+    display: flex;
+}
+.chamber-nameCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header_imgCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    color: var(--color1);
+    gap: 1em;
+}
+.header_imgCon img {
+    width: 4em;
+}
+.name{
+    font-size: 1.5em;
+}
+nav{
+    background-color: var(--fontcolor);
+    
+}
+nav .navi li{
+    padding: 0.5em;
+
+}
+nav .navi li a:hover{
+    color: var(--color4);
+}
+nav .navi li a{
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 500;
+}
+
+main{
+    color: var(--fontcolor);
+    padding: 1em;
+}
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+.button_member {
+    background-color: var(--color2);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+p.level {
+    font-size: 0.75em;
+    font-weight: 100;
+}
+.button_member img {
+    width: 4em;
+}
+.button_member:hover{
+    background-color: var(--fontcolor);
+}
+.memberCardCon {
+    display: grid;
+    text-align: center;
+    padding: 0;
+    margin-top: 2em;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.logo-container{
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    grid-template-columns: 1fr;
+}
+/*businessCards*/
+
+.list .b-cards {
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: left;
+}
+img.pic {
+    width: 100px;
+}
+section.b-cards {
+    text-align: center;
+    border: 2px solid;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.b-cards h2{
+    font-size: 1.2em;
+}
+
+footer {
+    padding: 1em;
+    background-color: var(--fontcolor);
+    color: var(--color1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2em;
+    flex-direction: column;
+
+}
+.lastModif {
+    color: var(--color4);
+}
+.socmed {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.socmed a img{
+    width: 60px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5em;
+    gap: 0.25em;
+}
+.activeButton {
+    background-color: var(--fontcolor);
+}
