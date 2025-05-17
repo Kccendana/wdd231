@@ -31,7 +31,7 @@ function displayBusinessCards(memberList,elementCon) {
 	memberList.forEach((member) => {
 		const memberCards = `<section id="cards" class="b-cards">
 				<h2 class="business-name">${member.name}</h2>
-				<div class="logo-container"><img class="pic" src="images/${member.image}" alt="${member.name} logo" loading="lazy"></div>
+				<div class="logo-container"><img class="pic" src="images/${member.image}" alt="${member.name} logo" loading="lazy" width="100" height="100"></div>
 				<p class="address">${member.address}</p>
 				<p class="number">${member.number}</p>
 				<a class="site" href="${member.website}" target="_blank">${member.name}</a>
