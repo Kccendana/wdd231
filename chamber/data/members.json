@@ -1,0 +1,68 @@
+{
+    "members": [
+        {
+            "name": "Julie's Trading Supermarket",
+            "address": "20-9 Higashimarunouchi, Tsu",
+            "number": "070 4097 0367",
+            "website": "https://ms-my.facebook.com/people/Julies-Trading-in-Mie-Ken/100075839022287/",
+            "image": "juliesTrading.jpg",
+            "level": "1"
+        },
+        {
+            "name": "Mang Colas Matsusaka",
+            "address": "457-41 Maenohetacho, Matsusaka",
+            "number": "080 3663 2012",
+            "website": "https://www.facebook.com/mangcolasmatsusaka",
+            "image": "mangColas.jpg",
+            "level": "3"
+        },
+        {
+            "name": "Kanto Kusina",
+            "address": "1 Ku-28-9 Kyomachi, Matsusaka",
+            "number": "070 8525 2833",
+            "website": "https://www.facebook.com/ profile.php?id=61568197062727",
+            "image": "kantoKusina.svg",
+            "level": "1"
+        },
+        {
+            "name": "GinaPie's Cakes",
+            "address": "1083 Shimomurachō, Matsusaka",
+            "number": "090 8156 5272",
+            "website": "https://www.facebook.com/profile.php?id=100077424821238",
+            "image": "ginaPie.jpg",
+            "level": "1"
+        },
+        {
+            "name": "PhilNet Matsusaka",
+            "address": "1855-41 Kubocho, Matsusaka",
+            "number": "0598 60 2211",
+            "website": "https://www.facebook.com/matsusaka.philnet",
+            "image": "philnet.jpg",
+            "level": "2"
+        },
+        {
+            "name": "Taci Boie's",
+            "address": "Tsu, Mie-ken",
+            "number": "090 4880 5833",
+            "website": "https://www.facebook.com/iyanna.icat",
+            "image": "tacie.jpg",
+            "level": "2"
+        },
+        {
+            "name": "Just Sweets and Treats",
+            "address": "478-17 Maenoheta, Matsusaka",
+            "number": "070 5522 3338",
+            "website": "https://www.facebook.com/",
+            "image": "justTreats.jpg",
+            "level": "3"
+        },
+        {
+            "name": "JenArt Party Decor",
+            "address": "491-4 Tamurachō, Matsusaka",
+            "number": "080 3858 1291",
+            "website": "https://www.facebook.com/",
+            "image": "jenArt.jpg",
+            "level": "2"
+        }
+    ]
+}
