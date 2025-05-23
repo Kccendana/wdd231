@@ -6,7 +6,7 @@
             "number": "070 4097 0367",
             "website": "https://ms-my.facebook.com/people/Julies-Trading-in-Mie-Ken/100075839022287/",
             "image": "juliesTrading.jpg",
-            "level": "1"
+            "membership": "Silver"
         },
         {
             "name": "Mang Colas Matsusaka",
@@ -14,7 +14,7 @@
             "number": "080 3663 2012",
             "website": "https://www.facebook.com/mangcolasmatsusaka",
             "image": "mangColas.webp",
-            "level": "3"
+            "membership": "Silver"
         },
         {
             "name": "Kanto Kusina",
@@ -22,7 +22,7 @@
             "number": "070 8525 2833",
             "website": "https://www.facebook.com/ profile.php?id=61568197062727",
             "image": "kantoKusina.svg",
-            "level": "1"
+            "membership": "Gold"
         },
         {
             "name": "GinaPie's Cakes",
@@ -30,7 +30,7 @@
             "number": "090 8156 5272",
             "website": "https://www.facebook.com/profile.php?id=100077424821238",
             "image": "ginaPie.jpg",
-            "level": "1"
+            "membership": "Gold"
         },
         {
             "name": "PhilNet Matsusaka",
@@ -38,7 +38,7 @@
             "number": "0598 60 2211",
             "website": "https://www.facebook.com/matsusaka.philnet",
             "image": "philnet.jpg",
-            "level": "2"
+            "membership": "Silver"
         },
         {
             "name": "Taci Boie's",
@@ -46,7 +46,7 @@
             "number": "090 4880 5833",
             "website": "https://www.facebook.com/iyanna.icat",
             "image": "tacie.jpg",
-            "level": "2"
+            "membership": "Silver"
         },
         {
             "name": "Just Sweets and Treats",
@@ -54,7 +54,7 @@
             "number": "070 5522 3338",
             "website": "https://www.facebook.com/",
             "image": "justTreats.webp",
-            "level": "3"
+            "membership": "Bronze"
         },
         {
             "name": "JenArt Party Decor",
@@ -62,7 +62,7 @@
             "number": "080 3858 1291",
             "website": "https://www.facebook.com/",
             "image": "jenarti.webp",
-            "level": "2"
+            "membership": "Bronze"
         }
     ]
 }
