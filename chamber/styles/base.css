@@ -51,7 +51,7 @@ body {
     left: 0;
     background-color: var(--fontcolor);
     width: 100%;
-    text-align: center;
+    z-index: 10000;
 } 
 
 .nav-button.close .ham:nth-child(2) {
@@ -112,7 +112,7 @@ nav .navi li a{
 
 main{
     color: var(--fontcolor);
-    padding: 1em;
+    padding: 0 1em 1em 1em;
 }
 .buttonContainer {
     display: flex;
@@ -140,7 +140,7 @@ p.level {
 .button_member:hover{
     background-color: var(--fontcolor);
 }
-.memberCardCon {
+.businesses, .memberCardCon {
     display: grid;
     text-align: center;
     padding: 0;
@@ -190,6 +190,7 @@ footer {
     align-items: flex-start;
     gap: 2em;
     flex-direction: column;
+    margin-top: 2em;
 
 }
 .lastModif {
@@ -216,4 +217,100 @@ footer {
 }
 .activeButton {
     background-color: var(--fontcolor);
+}
+
+/*Home page*/
+.button{
+    background-color: var(--color2);
+    padding: 0.35em 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+}
+
+a.button{
+    text-decoration: none;
+}
+
+p.welcome {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+p.welcomemessage {
+    font-size: 1em;
+    display: none;
+}
+.buttonCon{
+    margin-top: 0.75em;
+}
+.banner{
+    position: relative;
+}
+.callToAction {
+    position: absolute;
+    background-color: #ffffffbf;
+    left: 1em;
+    bottom: 1em;
+    padding: 1em;
+}
+h2.title {
+    background-color: var(--fontcolor);
+    padding: 0 0.5em;
+    color: var(--color1);
+}
+
+.event p, .forecast p {
+    padding: 0.5em 1em;
+}
+.buttonCon {
+    position: absolute;
+    right: 2em;
+    bottom: 2em;
+    display: flex;
+    gap: 1em;
+}
+.event, .weather-info, .forecast {
+    border: 1px solid;
+}
+.weather-info {
+    display: grid;
+    grid-template-columns: 0.35fr 0.65fr;
+    gap: 1em;
+    padding: 1em;
+}
+
+.bcard {
+    border: 1px solid;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bname {
+    border-bottom: 1px solid;
+}
+.mem-info {
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.mem-info img {
+    width: 30%;
+}
+.mem-details {
+    text-align: left;
+}
+span.info-label {
+    margin-right: .5em;
+}
+section.eventweather {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+span.forecast-temp {
+    margin-left: 0.5em;
 }
