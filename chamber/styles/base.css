@@ -16,9 +16,9 @@ img{
     width: 100%;
 }
 
-body {
+/* body {
     min-width: 420px;
-}
+} */
 
 /*hamburger menu*/
 .nav-button {
@@ -46,7 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 6em;
+    top: 5.7em;
     right: 0;
     left: 0;
     background-color: var(--fontcolor);
@@ -72,11 +72,11 @@ body {
 header {
     background-color: var(--fontcolor);
     display: flex;
+    position: relative;
 }
 .chamber-nameCon {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 .header_imgCon{
@@ -88,7 +88,8 @@ header {
     gap: 1em;
 }
 .header_imgCon img {
-    width: 4em;
+    width: 3.5em;
+    height: 3.5em;
 }
 .name{
     font-size: 1.5em;
@@ -146,7 +147,7 @@ p.level {
     padding: 0;
     margin-top: 2em;
     gap: 1em;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .logo-container{
     align-items: center;
@@ -220,7 +221,7 @@ footer {
 }
 
 /*Home page*/
-.button{
+ .button{
     background-color: var(--color2);
     padding: 0.35em 1em;
     border-radius: 10px;
@@ -237,11 +238,6 @@ a.button{
 p.welcome {
     font-size: 1.2em;
     font-weight: 600;
-}
-
-p.welcomemessage {
-    font-size: 1em;
-    display: none;
 }
 .buttonCon{
     margin-top: 0.75em;
@@ -313,4 +309,4 @@ section.eventweather {
 }
 span.forecast-temp {
     margin-left: 0.5em;
-}
+} 

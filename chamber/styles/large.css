@@ -69,7 +69,7 @@
         grid-template-columns: 1fr 1fr 0.6fr 1fr;
     }
     /*home page*/
-    section.eventweather {
+     section.eventweather {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     gap: 1em;
@@ -78,4 +78,4 @@
     padding: .25em 0.75em;
     font-size: 1.2em;
     }
-}
+} 
