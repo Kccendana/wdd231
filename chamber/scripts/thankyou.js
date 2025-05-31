@@ -45,7 +45,7 @@ if (everything.length > 1) {
       <p><strong>Last Name: </strong>${show("lastname") || "N/A"}</p>
       <p><strong>Email: </strong>${show("email") || "N/A"}</p>
       <p><strong>Number: </strong>${show("phone") || "N/A"}</p>
-      <p><strong>Business: </strong>${show("orgtitle")?.replace("+", " ") || "N/A"}</p>
+      <p><strong>Business: </strong>${show("businesstitle")?.replace("+", " ") || "N/A"}</p>
       <p><strong>Submission Date: </strong>${timestampData?.date || "N/A"} at ${formattedTime}</p>
     </div>
   `;
