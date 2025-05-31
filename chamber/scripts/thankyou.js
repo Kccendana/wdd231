@@ -4,7 +4,6 @@ const everything = currentUrl.split('?');
 
 if (everything.length > 1) {
   const formData = new URLSearchParams(everything[1]);
-  console.log([...formData.entries()]);
 
   function show(info) {
     let value = formData.get(info);
