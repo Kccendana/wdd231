@@ -11,7 +11,7 @@
     <meta property="og:image" content="https://kccendana.github.io/wdd231/chamber/images/ise-shima-bgr.webp">
     <meta property="og:url" content="https://kccendana.github.io/wdd231/chamber/directory.html">
     <meta property="og:description" content="Connecting Filipino entrepreneurs and businesses worldwide. PinoyHaven Chamber of Commerce empowers growth through community, resources, and global opportunities.">
-    <link rel="icon" type="image/svg" sizes="32x32" href="images/phlogokc.svg">
+    <link rel="icon" href="images/phlogokc.svg" type="image/svg" sizes="32x32">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -62,8 +62,8 @@ Join us today and be part of a united effort to build a vibrant and prosperous b
                     <input id="lastname" type="text" name="lastname" title="Your Last Name" autocomplete="family-name" required>
                 </div>
                 <div class="inputCon">
-                    <label for="businesstitle">Business Name</label>
-                    <input id="businesstitle" type="text" name="orgtitle" title="Please enter at least 7 characters, using only letters, spaces, and hyphens" autocomplete="organization-title"  pattern="[A-Za-z\s\-]{7,}">
+                    <label for="orgTitle">Organization Title</label>
+                    <input id="orgTitle" type="text" name="orgtitle" title="Please enter at least 7 characters, using only letters, spaces, and hyphens" autocomplete="organization-title"  pattern="[A-Za-z\s\-]{7,}" required>
                 </div>
                 <div class="inputCon">
                     <label for="email">Email</label>
@@ -72,6 +72,10 @@ Join us today and be part of a united effort to build a vibrant and prosperous b
                 <div class="inputCon">
                     <label>Cell Phone</label>
                     <input type="tel" name="phone" title="Your Phone Number" autocomplete="tel" placeholder="0598-345-6789" pattern="^[0-9-]+$" required>
+                </div>
+                <div class="inputCon">
+                    <label for="businesstitle">Business/Organization Name</label>
+                    <input id="businesstitle" type="text" name="orgtitle" autocomplete="organization-title" required>
                 </div>
                 <div class="inputCon">
                     <h3>Membership Level</h3>
