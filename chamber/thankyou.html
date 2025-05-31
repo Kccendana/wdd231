@@ -6,7 +6,7 @@
     <title>PinoyHaven Chamber of Commerce Directory</title>
     <meta name="description" content="Directory Page for the Chamber of Commerce Website Project">
     <meta name="author" content="Katherine Cendana">
-    <meta property="og:title" content="PinoyHaven Chamber of Commerce Home Page">
+    <meta property="og:title" content="PinoyHaven Chamber of Commerce Thank You Page">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://kccendana.github.io/wdd231/chamber/images/ise-shima-bgr.webp">
     <meta property="og:url" content="https://kccendana.github.io/wdd231/chamber/directory.html">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="styles/large.css">         
     <script  defer src="scripts/date.js"></script>
     <script  defer src="scripts/navigation.js"></script>
-    <script defer src="scripts/index.js"></script>
+    <script defer src="scripts/thankyou.js"></script>
 </head>
 <body>
     <header>
@@ -38,7 +38,7 @@
         </div>
         <nav>
             <ul class="navi">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="#">Discover</a></li>
@@ -46,34 +46,7 @@
         </nav>
     </header>
     <main>
-        <div class="banner">
-             <picture>
-                <source media="(min-width:650px)" srcset="images/large.jpg">
-                <source media="(min-width:465px)" srcset="images/small.jpg">
-                <img src="images/original.jpg" alt="hero image">
-          </picture>
-        
-          <div class="buttonCon">
-                <a href="#" class="button">Join now!</a>
-                <a href="#" class="button">Explore</a>
-            </div>
-        </div>
-        <h1>Home</h1>
-        <section class="eventweather">
-            <div class="event">
-                <h2 class="title">Event</h2>
-                <p>A vibrant space where Filipino businesses, culture, and community thrive. We connect, support, and celebrate the entrepreneurial spirit of Pinoys everywhere—empowering growth, collaboration, and pride in every endeavor.</p>
-            </div>
-            <div class="currentweather">
-                <h2 class="title">Current Weather</h2>
-                <div class="weather-info"></div>
-            </div>
-            <div class="forecast">
-                <h2 class="title">Weather Forecast</h2>
-                <ul class="forecast-info"></ul>
-            </div>
-        </section>
-        <section class="businesses"></section>
+        <div id="thanks"></div>
     </main>
     <footer class="footer">
          <div class="chamber-info info">

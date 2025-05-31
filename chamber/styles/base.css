@@ -229,6 +229,7 @@ footer {
     text-align: center;
     font-weight: 500;
     color: black;
+    border: none;
 }
 
 a.button{
@@ -310,3 +311,92 @@ section.eventweather {
 span.forecast-temp {
     margin-left: 0.5em;
 } 
+
+/*Join Page*/
+form{
+    padding: 0.75em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 1.5em;
+    box-shadow: 10px 9px 22px -4px rgba(3,3,3,0.37);
+}
+
+.inputCon{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    font-size: 1em;
+    padding: 0.45em;
+    border-radius: 5px;
+    border: 1px solid;
+}
+dialog#memDetails{
+    margin: 3em auto;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75em;
+    background: var(--fontcolor);
+    color: var(--color1);
+    width: 35em;
+    box-shadow: 10px 9px 22px -4px rgba(3,3,3,0.37);
+}
+.sub{
+    margin: 0.25em 0 0.75em 0;
+}
+.member-level {
+    padding: 2em 1em ;
+    border:2px solid #43a574;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 10px 9px 22px -4px rgba(3,3,3,0.37);
+    animation-duration: 1.9s, 6.6s;
+    animation-name: slide-up;
+}
+.member-level h3 {
+    margin-bottom: 0.5em;
+}
+dialog::backdrop {
+    background-color: #b4b4b4ab;
+}
+section.formMemCon {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+.memBtnCon {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+button#closeModal {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+@keyframes slide-up{
+    from {
+        transform: translateY(150vh);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0); 
+        opacity: 1;
+    }
+}
+.sub-details {
+    margin-top: 1em;
+    border: 1px solid;
+    padding: 1em 2em;
+    border-radius: 10px;
+    width: fit-content;
+    box-shadow: 10px 9px 22px -4px rgba(3,3,3,0.37);
+}

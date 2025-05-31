@@ -78,4 +78,10 @@
     padding: .25em 0.75em;
     font-size: 1.2em;
     }
+    .memLevel {
+    padding-top: 1em;
+    }
+    section.formMemCon{
+        grid-template-columns: 0.65fr 0.35fr;
+    }
 } 
