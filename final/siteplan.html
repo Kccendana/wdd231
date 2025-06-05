@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Katherine Cendana">
+        <meta name="description" content="Explore Siteplan with Katherine Cendana, covering essential skills in HTML, CSS, JavaScript, and responsive design for creating dynamic, user-friendly websites. Learn about key web development concepts, best practices, and tools for building visually engaging and functional web pages">
+        <title>WDD 231 - Kanto Kusina Siteplan</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/siteplan.css">   
+        <script  defer src="scripts/siteplan.js"></script>
+    </head>
+<body>
+    <header>
+        <nav>
+            <div class="headcon">
+                <img class="logo" src="images/kanto-logo.svg" alt="bahay kubo logo">
+                <h1>Kanto Kusina</h1>
+            </div>
+            <ul>
+                <li><a class="active" href="#description">Description</a></li>
+                <li><a href="#scenarios">Scenarios</a></li>
+                <li><a href="#color-schema">Color Scheme</a></li>
+                <li><a href="#typography">Typography</a></li>
+            </ul>
+        </nav>
+     </header>
+     
+     <main>
+        <section id="description" class="description">
+            <h1>Domain Name: kantokusina.com</h1>
+            <h2 class="section-title">Description</h2>
+            <p class="desc-p" >Kanto Kusina is our new local restaurant where we want to establish an online presence by creating a website showcasing their menu items with detailed descriptions, prices, and images. The website will allow customers to browse the menu and submit orders online for pickup or delivery.</p>   
+            <h3>Logo</h3>
+            <img class="logoimg" src="images/kanto-logo.svg" alt="Bahay-kubo logo">
+        </section>
+        <section class="purpose">
+            <h3 class="section-title">Site Pupose</h3>
+            <p>To provide an engaging and informative website that showcases Kanto Kusina's catering services. The site will include detailed menus, pricing, promotions, and customizable party packages, along with an inquiry form for direct communication. It aims to make Filipino cuisine accessible and convenient for customers.</p>
+        </section>
+        <section id="scenarios" class="scenarios">
+            <h3 class="section-title">Scenarios</h3>
+            <ol>
+                <li>
+                    <h4>Scenario 1: <span>How can I view the available party packages and their pricing?</span></h4>
+                    <p>The website will provide a categorized menu and package page that dynamically displays all options with pricing details.</p>
+                </li>
+                <li>
+                    <h4>Scenario 2: <span>Can I contact Kanto Kusina for customized pricing or services?</span></h4>
+                    <p>An inquiry page will feature a form to send direct messages to the team and request tailored quotes.</p>
+                </li>
+            </ol>
+        </section>
+        <section id="color-schema" class="color-schema">
+            <h3 class="section-title">Color Schemas</h3>
+            <ol>
+                <li>
+                    <h4 class="yelrose">#FFF10A (Yellow Rose)</h4>
+                    <p>Feels like home—nurturing, nostalgic, and comforting. Perfect for evoking the feeling of a friendly karinderya or roadside eatery where people gather and feel at ease.</p>
+                </li>
+                <li>
+                    <h4 class="mikyellow">#FEC208 (Mikado Yellow)</h4>
+                    <p>Communicates joy and vitality, reminiscent of the sunny tropics and vibrant Filipino markets. Boosts appetite, draws attention to key areas (like signage or featured dishes).</p>
+                </li>
+                <li>
+                    <h4 class="electricorange">#EFECE3 (Electric Orange)</h4>
+                    <p>Suggests passion, flavor, and heat, mirroring the bold taste of Filipino street food. Sparks curiosity and urgency, great for fast-paced dining, street food concepts, and attracting younger diners.
+                    </p>
+                </li>
+            </ol>
+        </section>
+        <section id="typography" class="typography">
+            <h3 class="section-title">Typography</h3>
+            <ol>
+                <li>
+                    <h4>Headings: Merriweather</h4>
+                    <p>I chose this font because it is simple and classy. It is perfect for my Bahay-kubo website.</p>
+                </li>
+                <li>
+                    <h4>Paragraph and Navigation Bar: Montserrat</h4>
+                    <p>I love the simplicity and readability of Montserrat. It fits my site.</p>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <h3 class="section-title">Wireframe</h3>
+            <div class="wireframe-con">
+                <figure>
+                    <img src="images/largewireframe.webp" alt="Desktop Wireframe">
+                    <figcaption>Desktop Wireframe</figcaption>
+                </figure>
+                <figure class="m-wireframe">
+                    <img src="images/smallwireframe.webp" alt="mobile Wireframe">
+                    <figcaption>Mobile Wireframe</figcaption>
+                </figure>
+            </div>
+        </section>
+ </main>
+    <footer>
+        <p>&copy; <span id="year"></span>🌸 Katherine Cendana 🌸 Philippines</p>
+        <p class="lastModif">Last modified: <span id="lastModif"></span></p>
+    </footer>
+</body>
+</html>
