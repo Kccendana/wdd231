@@ -1,4 +1,4 @@
-@media only screen and (min-width:769px){
+@media only screen and (min-width:64rem){
     header{
     background-color: var(--fontcolor);
     flex-direction: row;
@@ -83,5 +83,10 @@
     }
     section.formMemCon{
         grid-template-columns: 0.65fr 0.35fr;
+    }
+
+    /* discover page */
+    div#allplaces{
+        grid-template-columns: 1fr 1fr;
     }
 } 

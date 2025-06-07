@@ -1,0 +1,15 @@
+@media only screen and (min-width:38rem){
+    .place{
+    grid-template-areas: 
+    "title title"
+    "img desc"
+    "img address"
+    "button button"
+    }
+     .place img {
+        width: 300px;
+    } 
+    figure.photo{
+        padding:0 0 0 0.5em ;
+    }
+}

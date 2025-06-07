@@ -400,3 +400,51 @@ button#closeModal {
     width: fit-content;
     box-shadow: 10px 9px 22px -4px rgba(3,3,3,0.37);
 }
+
+/* discover page */
+div#allplaces {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
+.place{
+    margin: 1rem 8px;
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 10px 9px 22px -4px rgba(3,3,3,0.37);
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "img"
+    "desc"
+    "address"
+    "button"
+}
+
+.place h2 {
+    margin: 1rem 10px;
+    grid-area: title;
+}
+ .place figure{
+    width: 100%;
+    grid-area: img;
+ }
+
+ .placeDesc{
+    margin: 1rem 10px;
+    grid-area: desc;
+ }
+
+ .place address {
+    margin: 1rem 10px;
+    grid-area: address;
+ }
+
+ .place .button{
+    margin: 0 10px 0.75em;
+    font-size: 1.1em;
+    grid-area: button;
+ }
