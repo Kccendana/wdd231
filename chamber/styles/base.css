@@ -449,9 +449,6 @@ div#allplaces {
     grid-area: button;
     height: 2.2em;
  }
-.place figure img:hover{
-    border-radius: 15px 150px;
-}
 
 .place .button:hover{
     background-color: #ffD05C;
