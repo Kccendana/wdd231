@@ -101,7 +101,7 @@ nav {
     border-top: 2px solid var(--color1);
 }
 
-.active {
+.navMenu.active {
     border-bottom: 2px solid var(--color1);
 }
 
@@ -287,6 +287,9 @@ footer {
     margin-top: 1em;
     border-top: 0.5px solid;
     color: var(--headfontcolor);
+}
+.lastModif{
+    font-size: 1em;
 }
 
 /*cart*/
