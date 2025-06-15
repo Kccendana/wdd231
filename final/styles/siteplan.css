@@ -6,11 +6,9 @@
 }
 
 :root{
-    --color1: #FFF10A;
-    --headfontcolor: black;
-    --color4: #fff;
-    --accent1: #FEC208;
-    --accent2: #CF240A;
+    --color1: #6f0000;
+    --headfontcolor: #6C2F12    ;
+    --color4: #EFECE3;
 }
 
 img {
@@ -128,26 +126,19 @@ ol li {
     margin-bottom: 1em;
 }
 
-.yelrose {
+.rustyred {
     background-color: var(--color1);
     padding: 0.5em;
     width: fit-content;
     font-weight: 600;
-    color: black;
+    color: white;
 }
 
-.mikyellow {
-    color: black;
+.rich-brown {
+    color: white;
     padding: 0.5em;
     width: fit-content; 
-    background-color: var(--accent1);
-}
-
-.electricorange{
-    background-color: var(--accent2);
-    padding: 0.5em;
-    width: fit-content; 
-    color: #fff;
+    background-color: var(--headfontcolor);
 }
 
 .typography-head {

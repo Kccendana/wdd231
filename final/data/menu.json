@@ -1,0 +1,100 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "menuName": "Caldereta",
+      "category": "beef",
+      "price": 1000,
+      "imageUrl": "images/caldereta.webp",
+      "description": "A rich and hearty Filipino beef stew simmered with tomatoes, liver spread, and vegetables."
+    },
+    {
+      "id": 2,
+      "menuName": "Cassava Cake",
+      "category": "dessert",
+      "price": 500,
+      "imageUrl": "images/cassava_cake.webp",
+      "description": "A chewy, coconut-flavored Filipino dessert made from grated cassava and creamy custard topping."
+    },
+    {
+      "id": 3,
+      "menuName": "Chicken Barbecue",
+      "category": "chicken",
+      "price": 500,
+      "imageUrl": "images/chicken_bbq.webp",
+      "description": "Tender chicken skewers marinated in a sweet and savory Filipino-style barbecue sauce."
+    },
+    {
+      "id": 4,
+      "menuName": "Cinnamon Rolls",
+      "category": "bread",
+      "price": 500,
+      "imageUrl": "images/cinnamon_rolls.webp",
+      "description": "Soft, fluffy rolls swirled with cinnamon sugar and topped with creamy icing."
+    },
+    {
+      "id": 5,
+      "menuName": "Dinuguan",
+      "category": "pork",
+      "price": 1000,
+      "imageUrl": "images/dinuguan.webp",
+      "description": "A savory Filipino stew made with pork and pig's blood, simmered in vinegar and spices."
+    },
+    {
+      "id": 6,
+      "menuName": "Empanada",
+      "category": "bread",
+      "price": 500,
+      "imageUrl": "images/empanada.webp",
+      "description": "Golden-fried pastry filled with savory ground meat, potatoes, and vegetables."
+    },
+    {
+      "id": 7,
+      "menuName": "Ensaymada",
+      "category": "bread",
+      "price": 500,
+      "imageUrl": "images/ensaymada.webp",
+      "description": "A soft, buttery brioche topped with sugar, cheese, and sometimes grated coconut."
+    },
+    {
+      "id": 8,
+      "menuName": "Halo halo",
+      "category": "dessert",
+      "price": 500,
+      "imageUrl": "images/halo-halo.webp",
+      "description": "A popular Filipino shaved ice dessert with mixed fruits, jellies, beans, leche flan, and ice cream."
+    },
+    {
+      "id": 9,
+      "menuName": "Hamburger",
+      "category": "bread",
+      "price": 500,
+      "imageUrl": "images/hamburger.webp",
+      "description": "A classic beef burger with lettuce, tomato, and condiments in a soft bun."
+    },
+    {
+      "id": 10,
+      "menuName": "Lechon Paksiw",
+      "category": "pork",
+      "price": 500,
+      "imageUrl": "images/lechon_paksiw.webp",
+      "description": "Leftover roasted pork simmered in a savory-sweet vinegar and liver sauce."
+    },
+    {
+      "id": 11,
+      "menuName": "Pandesal",
+      "category": "bread",
+      "price": 500,
+      "imageUrl": "images/pandesal.webp",
+      "description": "Soft, slightly sweet Filipino bread rolls commonly enjoyed for breakfast."
+    },
+    {
+      "id": 12,
+      "menuName": "Yema Cake",
+      "category": "dessert",
+      "price": 500,
+      "imageUrl": "images/yema_cake.webp",
+      "description": "A fluffy chiffon cake topped with rich yema custard and grated cheese."
+    }
+  ]
+}
