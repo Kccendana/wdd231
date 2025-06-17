@@ -96,7 +96,7 @@ function displayMenuCards(menuList, elementCon) {
     const menuCard = `
       <section class="cards">
         <img src="${menu.imageUrl}" alt="${menu.menuName}" loading="lazy">
-        <h3 class="menu-name">${menu.menuName}</h3>
+        <h2 class="menu-name">${menu.menuName}</h2>
         <p>Price: ¥${menu.price}</p>
         <button class="order-now button" data-id="${menu.id}">Order now</button>
       </section>`;
@@ -166,7 +166,7 @@ function renderCartContents() {
 function cartItemTemplate(item) {
   return `<li class="cart-card divider">
     <img src="${item.imageUrl}" alt="${item.menuName}" />
-    <h2 class="card__name">${item.menuName}</h2>
+    <h3 class="card__name">${item.menuName}</h3>
     <div class="quantity-container">
       <button class="decrement" data-id="${item.id}">-</button>
       <span class="cart-card__quantity">${item.quantity}</span>
